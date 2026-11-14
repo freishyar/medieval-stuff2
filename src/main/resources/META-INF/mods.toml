@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+
+license = "MIT"
+
+[[mods]]
+    modId = "medieval"
+    version = "1.0.0"
+    displayName = "Asedio Medieval"
+    authors = "Tu nombre"
+    description = "Armaduras, espadas, guadana y maquinas de asedio medievales: catapulta, balista y ariete."
+
+[[dependencies.medieval]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[46,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.medieval]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20,1.20.2)"
+    ordering = "NONE"
+    side = "BOTH"
